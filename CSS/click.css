@@ -1,0 +1,100 @@
+/* General Setup ------------------------- */
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  form {
+    padding: 20px;
+    text-align: left;
+  }
+  label {
+    color: #FFFFFF; 
+  }
+  input {
+    width: 100%;
+  }
+  .amg-button {
+    width: 100%;
+      display: inline-block;
+      padding: 10px 20px;
+      background: #39d084;
+      color: #fff;
+      text-transform: uppercase;
+      font-size: 26px;
+      margin: 10px 0;
+      -webkit-border-radius: 40px;
+      -moz-border-radius: 40px;
+      border-radius: 40px;
+    border: none;
+  }
+  
+  /* Floating Contact ---------------------- */
+  .amg-blue .amg-floating-icon, 
+  .amg-blue .amg-floating-link {
+      background: #2c3e50;
+  }
+  .amg-orange .amg-floating-icon, 
+  .amg-orange .amg-floating-link {
+      background: #ff8d00;
+  }
+  .amg-green .amg-floating-icon, 
+  .amg-green .amg-floating-link {
+      background: #39d084;
+  }
+  .amg-floating-contact-wrap {
+      position: fixed;
+      right: -260px;
+      font-size: 20px;
+      opacity: 0.6;
+      z-index: 999;
+    -webkit-transition: right 1s;
+      -moz-transition: right 1s;
+      -o-transition: right 1s;
+      transition: right 1s;
+  }
+  .amg-floating-contact-wrap:first-child {
+      top: 70px;
+  }
+  .amg-floating-contact-wrap:nth-child(2) {
+      top: 125px;
+  }
+  .amg-floating-icon, .amg-floating-link {
+      text-align: center;
+  }
+  .amg-floating-icon {
+      width: 48px;
+      float: left;
+      padding: 10px;
+  }
+  .amg-floating-icon i:before {
+      vertical-align: middle;
+  }
+  .amg-floating-link {
+      width: 260px;
+    min-height: 48px;
+      padding: 10px 0;
+      overflow: hidden;
+  }
+  .amg-floating-link a {
+      white-space: nowrap;
+    color: #FFFFFF;
+      color: rgba(255,255,255,0.7);
+      text-decoration: none;
+  }
+  .amg-floating-link a:hover {
+    color: #FFFFFF;
+      color: rgba(255,255,255,1);
+  }
+  .amg-floating-link form, 
+  .amg-floating-link a {
+      width: 240px !important;
+      margin: 0 10px;
+  }
+  /* Hover Effect */
+  .amg-floating-contact-wrap.hover {
+      opacity: 1;
+    right: 0;
+  }
+  .amg-floating-contact-wrap.hover .amg-floating-link {
+      right: 0;
+  }
